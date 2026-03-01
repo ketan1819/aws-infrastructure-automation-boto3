@@ -144,7 +144,7 @@ Instead of running each script manually, `main.py` imports all resource creation
 
 ## 💻 Sample Terminal Output
 
-![IAM User](screenshots/terminal.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/terminal.png)
 
 ## 🔍 Step 5: Verification in AWS Console
 
@@ -157,9 +157,9 @@ After execution, resources were verified in:
 
 ---
 
-![IAM User](screenshots/vpc-op.png)
-![IAM User](screenshots/iam-op.png)
-![IAM User](screenshots/ec2-op.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/vpc-op.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/iam-op.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/ec2-op.png)
 
 ## 📁 Project Structure
 
