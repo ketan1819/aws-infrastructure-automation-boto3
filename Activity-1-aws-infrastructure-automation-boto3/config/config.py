@@ -1,0 +1,5 @@
+REGION = "ap-south-1"
+BUCKET_NAME = "my-activity1-pec-bucket-12345"
+KEY_PAIR_NAME = "Key-Pair-ALB"
+AMI_ID = "ami-0f5ee92e2d63afc18"  
+INSTANCE_TYPE = "t2.micro"
