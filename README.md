@@ -51,10 +51,10 @@ The complete implementation flow of this project:
   - Secret Access Key
 
 These credentials were used to configure AWS CLI.
-![IAM User](screenshots/iam_user.png)
-![IAM User](screenshots/iam_user.png)
-![IAM User](screenshots/iam_user.png)
-![IAM User](screenshots/iam_user.png)
+![IAM User](Activity-1-aws-infrastructure-automation-boto3/screenshots/1.png)
+![IAM User](Activity-1-aws-infrastructure-automation-boto3/screenshots/2.png)
+![IAM User](Activity-1-aws-infrastructure-automation-boto3/screenshots/3.png)
+![IAM User](Activity-1-aws-infrastructure-automation-boto3/screenshots/4.png)
 
 ---
 
@@ -75,7 +75,7 @@ Entered the following details:
 
 This connects the local system to the AWS account.
 
-![IAM User](screenshots/iam_user.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/aws-configure.png)
 
 ---
 
@@ -101,7 +101,7 @@ Instead of hardcoding values in multiple scripts, all common parameters are stor
 - Better scalability
 - Follows best practices
 
-![IAM User](screenshots/iam_user.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/config.png)
 
 ---
 
@@ -112,7 +112,10 @@ Resources were created using separate Python files.
 ```bash
 python main.py
 ```
-![IAM User](screenshots/iam_user.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/bucket.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/role.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/vpc.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/launch.png)
 ---
 
 ## 🚀 Main Execution File (`main.py`)
@@ -128,7 +131,7 @@ Instead of running each script manually, `main.py` imports all resource creation
 - Automates infrastructure provisioning
 - Ensures correct execution order
 
-![IAM User](screenshots/iam_user.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/main.png)
 
 ### Execution Order
 
@@ -141,7 +144,7 @@ Instead of running each script manually, `main.py` imports all resource creation
 
 ## 💻 Sample Terminal Output
 
-![IAM User](screenshots/iam_user.png)
+![IAM User](screenshots/terminal.png)
 
 ## 🔍 Step 5: Verification in AWS Console
 
@@ -154,9 +157,9 @@ After execution, resources were verified in:
 
 ---
 
-![IAM User](screenshots/iam_user.png)
-![IAM User](screenshots/iam_user.png)
-![IAM User](screenshots/iam_user.png)
+![IAM User](screenshots/vpc-op.png)
+![IAM User](screenshots/iam-op.png)
+![IAM User](screenshots/ec2-op.png)
 
 ## 📁 Project Structure
 
@@ -189,19 +192,19 @@ aws-infrastructure-automation-boto3/
 ## 📷 Output Screenshots
 
 ### 💻 Terminal Execution Output
-![Terminal Output](screenshots/terminal_output.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/terminal.png)
 
 ### 🚀 EC2 Instance Running
-![EC2](screenshots/ec2_running.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/ec2-op.png)
 
 ### 📦 S3 Bucket Created
-![S3](screenshots/s3_bucket.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/vpc-op.png)
 
 ### 🌐 VPC Created
-![VPC](screenshots/vpc_created.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/vpc-op.png)
 
 ### 🔑 IAM Role Created
-![IAM Role](screenshots/iam_role.png)
+![](Activity-1-aws-infrastructure-automation-boto3/screenshots/iam-op.png)
 
 ---
 
